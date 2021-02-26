@@ -10,13 +10,11 @@ return
 
 Capslock & /::
 Send {U+00BF}
-Send ?
 Send {Left}
 return
 
 Capslock & 1::
 Send {U+00A1}
 send !
-send {Left}
 return
 
