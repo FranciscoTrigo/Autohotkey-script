@@ -34,6 +34,10 @@ Menu, MainMenu, Add, o.o, 1F
 Menu, MainMenu, Add, D:, 2F
 Menu, MainMenu, Add, o.O, 3F
 Menu, MainMenu, Add, :c, 4F
+Menu, MainMenu, Add, uwu, 5F
+
+
+
 Menu, MainMenu, Show
 return
 
@@ -51,5 +55,9 @@ return
 
 4F:
 Send :c{Space}
+return
+
+5F:
+Send uwu{Space}
 return
 
