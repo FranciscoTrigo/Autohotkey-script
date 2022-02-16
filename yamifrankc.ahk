@@ -17,6 +17,29 @@ Capslock & n::
 Send {U+00F1}
 return
 
+Capslock & w::
+Send {Up}
+return
+
+Capslock & a::
+Send {Left}
+return
+
+Capslock & s::
+Send {Down}
+return
+
+Capslock & d::
+Send {Right}
+return
+
+Capslock & z::
+SendInput %A_YYYY%-%A_MM%-%A_DD%{Space}
+return
+
+Capslock & q::
+SendInput %A_Hour%:%A_Min%{Space}
+return
 
 ;; U+00D1 <-- Code for big ñ
 ;; ------------------------
@@ -25,8 +48,9 @@ return
 ;; Will use for often used emoticon and maybe some words or strings that I use often but are hard to write
 ;; ! TODO: Make the menu appear next to the text pointer and not the mouse
 
+ 
 
-Capslock & a::
+Capslock & x::
 Menu, MainMenu, Add
 Menu, MainMenu, deleteAll
 
@@ -35,7 +59,6 @@ Menu, MainMenu, Add, D:, 2F
 Menu, MainMenu, Add, o.O, 3F
 Menu, MainMenu, Add, :c, 4F
 Menu, MainMenu, Add, uwu, 5F
-
 
 
 Menu, MainMenu, Show
